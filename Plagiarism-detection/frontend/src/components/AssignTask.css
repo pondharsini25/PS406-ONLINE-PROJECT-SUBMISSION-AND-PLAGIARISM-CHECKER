@@ -1,0 +1,103 @@
+/* AssignTask.css */
+
+/* Container for the entire task page */
+.task-container {
+    padding: 20px;
+  }
+  
+  /* Style the assign button */
+  .assign-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .assign-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form styling inside modal */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Buttons inside modal */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-button, .close-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #45a049;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .close-button:hover {
+    background-color: #da190b;
+  }
+  
+  /* Style the task cards */
+  .task-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .task-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card h4 {
+    color: #4CAF50;
+  }
+  
+  .task-card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  /* Icon styles */
+  .task-card p svg, .form-group label svg {
+    margin-right: 8px;
+    color: #4CAF50;
+  }
+  
